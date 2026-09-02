@@ -9,4 +9,4 @@ with open('employee_records.txt', 'w') as emp_file:
         emp_file.write(id_number + '\n')
         emp_file.write(department + '\n')
         print()  
-print
+print('Employee records have been written to employee_records.txt.')
